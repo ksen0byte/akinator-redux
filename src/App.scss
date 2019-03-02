@@ -1,0 +1,36 @@
+@import "./global/css/index";
+
+body, .root, .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #24292e;
+  word-wrap: break-word;
+}
+
+.fixedHeaderContainer {
+  background: $defaultPurpleColor;
+  color: $defaultContrastColor;
+  min-height: 2em;
+  padding: $defaultPadding / 2 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+
+  header {
+    display: flex;
+    padding: 0 $defaultPadding * 2;
+
+    .headerTitle {
+      font-size: 1.25em;
+      line-height: 18px;
+      font-weight: 600;
+    }
+  }
+
+}

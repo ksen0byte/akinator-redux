@@ -1,0 +1,25 @@
+@import "../../global/css/index";
+
+.filtersContainer {
+  margin: 0 $defaultPadding;
+
+  .filtersWrapper {
+    padding: $defaultPadding / 2 $defaultPadding;
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+
+
+    .filter {
+      @extend %defaultButton;
+      text-transform: none;
+      display: flex;
+      padding: $defaultPadding / 3;
+      margin:  $defaultPadding / 3 $defaultPadding / 3 $defaultPadding / 3 0;
+
+      .removeContainer {
+        padding: 0 $defaultPadding / 3;
+      }
+    }
+  }
+}

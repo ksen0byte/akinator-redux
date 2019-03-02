@@ -1,0 +1,16 @@
+@import "../../global/css/index";
+
+button {
+  @extend %defaultButton;
+  font-size: 1.15em;
+
+}
+
+.buttonsContainer {
+  display: flex;
+  width: 45%;
+
+  button {
+    flex: 1 1 auto;
+  }
+}

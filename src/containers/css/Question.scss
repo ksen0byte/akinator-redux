@@ -1,0 +1,23 @@
+@import "../../global/css/index";
+
+.questionContainer {
+  margin: $defaultPadding;
+  padding: $defaultPadding;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .staticTextContainer {
+    padding: $defaultPadding / 2;
+    color: $defaultPurpleColor;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .tagContainer {
+    padding-bottom: $defaultPadding / 2;
+    font-size: x-large;
+
+  }
+}

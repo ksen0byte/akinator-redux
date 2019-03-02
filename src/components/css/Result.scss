@@ -1,0 +1,16 @@
+@import "../../global/css/index";
+
+.resultContainer {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.startOverContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $defaultPurpleColor;
+  padding-top: $defaultPadding;
+  padding-bottom: $defaultPadding / 2;
+  //min-height: 3em;
+}
